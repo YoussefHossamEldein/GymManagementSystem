@@ -1,7 +1,7 @@
-using GymManagement.DAL.DbContexts;
 using Microsoft.EntityFrameworkCore;
 using GymManagement.DAL.Repositories.Interfaces;
 using GymManagement.DAL.Repositories.Classes;
+using GymManagement.DAL.Data.DbContexts;
 namespace GymManagementSystem
 {
     public class Program

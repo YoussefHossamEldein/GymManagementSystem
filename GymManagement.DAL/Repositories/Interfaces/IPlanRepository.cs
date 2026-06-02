@@ -1,4 +1,4 @@
-﻿using GymManagement.DAL.Models;
+﻿using GymManagement.DAL.Data.Models;
 using Microsoft.Identity.Client;
 using System;
 using System.Collections.Generic;

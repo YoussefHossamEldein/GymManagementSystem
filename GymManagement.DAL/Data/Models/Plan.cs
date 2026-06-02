@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GymManagement.DAL.Models
+namespace GymManagement.DAL.Data.Models
 {
-    public class Plan
+    public class Plan : BaseEntity
     {
-        public int Id { get; set; }
+      
         public string Name { get; set; } = default!;
         public string Description { get; set; } = default!;
         public decimal Price { get; set; }
@@ -16,8 +16,13 @@ namespace GymManagement.DAL.Models
         public int DurationDays { get; set; }
         public bool IsActive { get; set; }
 
-        public DateTime CreatedAt { get; set; }
+        public ICollection<Membership> Membership { get; set; }
 
-        public DateTime? UpdatedAt { get; set; }
+
+
+
+
+
+
     }
 }
