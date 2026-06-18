@@ -23,5 +23,6 @@ namespace GymManagementSystem.Controllers
                 return RedirectToAction("Plan Not Found");
             return View(plan);
         }
+   
     }
 }
